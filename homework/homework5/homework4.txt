@@ -1,0 +1,3 @@
+homework 4
+
+on my little laptop, the c code performed a litte better than the java code.

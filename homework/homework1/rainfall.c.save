@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define MAX 100
+int main(){
+  char vals[MAX];
+  double entrys[MAX];
+  int count = 0;
+  char entry[MAX];
+
+  printf("Enter daily rainfall totals, one per line, use 'T' for trace, use '-1' to quit:\n");
+  while(count < 15){
+    entry[] = getchar();
+    e;
+    entrys[count] = atof(vals);
+    printf("entrys[%d]=%f\n",count, entrys[count]);
+
+    count++;
+  }
+
+
+}
