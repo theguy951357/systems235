@@ -1,0 +1,12 @@
+driver: cblaha
+a. pwd means present working directory.
+   It shows you the directory you are currently in.
+b. ls -a shows you all the files and directories in the pwd,
+    or you can specify a directoy. -a allows you to see all files
+   and directories including the hidden ones.
+c. cd stands for change directory. it will change to the directory 
+  specified, or will go to your home directory if not specified.
+d. rm stands for remove. it will remove the file specified. this command
+  must be used with caution as the file can not be recovered. it is 
+  gone for good.
+e. " .." stand for parent directory.

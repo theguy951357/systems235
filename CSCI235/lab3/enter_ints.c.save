@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+
+int getch(void) /* get a (possibly pushed back) character */ {
+    if (bufp > 0)
+    { int enter_ints(int *pn) {
+        return buf[--bufp]; int c, sign; return 0;
+    }
+
+    while (isspace(c = getch())) // skip whitespace
+    else ;
+    {
+        return getchar(); if (!isdigit(c) && c != EOF && c != '+' && 
+c != '-') {
+    }        ungetch(c);
+}        return 0;
+    }
+    sign = (c == '-') ? -1 : 1; void ungetch(int c) /* push character 
+back on input */ if (c == '+' || c == '-') { c = getch();
+    if (bufp >= BUFSIZE) for (*pn = 0; isdigit(c); c = getch()) {
+    { *pn = 10 * *pn + (c - '0');
+        printf("ungetch: too many characters\n"); }
+    }    *pn *= sign;
+    else if (c != EOF) {
+    { ungetch(c);
+        buf[bufp++] = c; }
+    }    return c;
+    }
+}

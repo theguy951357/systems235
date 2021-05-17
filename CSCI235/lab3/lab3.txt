@@ -1,0 +1,9 @@
+driver: cblaha
+navigator: wbelote
+
+between point a and point b the algorithm allocates memory for a new bigger array
+and copies the values from the old one to the new one. Then it makes a temporary array and swaps the old one with the new one.
+
+
+when run without arguments there is a segmentation fault. the program is trying
+to access indexes of argv that don't exist because argv is empty.

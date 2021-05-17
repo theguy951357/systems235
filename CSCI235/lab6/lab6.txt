@@ -1,0 +1,4 @@
+driver: Garrett London
+navigator: Chris Blaha
+
+We would use fgets() to read line by line (string) rather than char-by-char
